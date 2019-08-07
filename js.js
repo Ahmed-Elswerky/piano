@@ -21,7 +21,7 @@ window.onload = function () {
         console.log(ip);
         //can_play();
     }
-    string.innerHTML = "Welcome to Audioid";
+    string.innerHTML = "Welcome to Pieeno";
 }
 
 //names of keys
