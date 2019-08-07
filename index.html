@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audioid</title>
+	<meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta name="description" content="The beta version piano from Audioid, under the supervision of MALVIN, all copy rights reserved to Ahmed Emad Elswerkey"/>
+    <link rel="icon" href="./logo.png" />
+    <link rel="Piano" href="ahmedelswerkey.orgfree.com"/>
+    <link href="css.css" rel="stylesheet" />
+    <script src="js.js"></script>
+</head>
+<body>
+    <!-- <?php 
+        if(!isset($_COOKIE['view'])){
+            setcookie("view","1",time()+(30*24*60*60),"/");
+            $view = 1;
+            echo "
+                <script>
+                    var xm1l = new XMLHttpRequest;
+                    xm1l.onreadystatechange = function(){
+                            if(this.status == 200 && this.readyState == 4){                                
+                                    console.log('');        }
+                    }
+                    xm1l.open('post','http://ahmedelswerkey.ezyro.com/views.php?t=shanta',true');
+                    xm1l.send();
+                </script>
+            ";
+        }
+     ?> -->
+    <div id="audio"></div>
+        <div id="piano">
+            <div id="loading">Please Wait, the Piano is loading...</div>
+            <div id="piano1">
+                <p id="string"></p>
+                <div id="piano2"></div>
+            </div>
+        </div>
+    <div class="div"></div>
+    <div id="p_div">
+        <p id="p" ></p><pre id="piano_p_pre"></pre>
+    </div>
+
+    <div id="footer">
+        <p>&copy; 2017, All Rights Reserves to <a target="_blank" href="https://ahmedemad.net">Ahmed Elswerkey</a> </p>
+    </div>
+
+
+    <script src="js.js"></script>
+    <script src="JavaScript.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyAVkpnyRM0S-sKIPDBOoTYWUhaCh2x1efg",
+        authDomain: "piano-1997.firebaseapp.com",
+        databaseURL: "https://piano-1997.firebaseio.com",
+        projectId: "piano-1997",
+        storageBucket: "piano-1997.appspot.com",
+        messagingSenderId: "175177353821"
+      };
+      firebase.initializeApp(config);
+    </script>
+</body>
+</html>
+	
